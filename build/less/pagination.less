@@ -29,12 +29,22 @@
   background-color: @pager-active-bg;
   color: @pager-active-color;
 }
+.pagination ul>li>input,.pagination ul>li>select{
+  border: 1px solid @pager-border;
+  height:32px;
+  line-height:32px;
+}
 .pagination ul>li>a, .pagination ul>li>span {
   float: left;
   padding: 5px 14px;
+  border-radius: 0;
   color:@pagination-color;
   background-color: @pager-bg;
   border: 1px solid @pager-border;
+}
+.pagination ul>li>.btn-success:hover{
+  background-color: @pager-active-bg;
+  color: @pager-active-color;
 }
 .pagination .controls input {
   border: 0;
